@@ -49,7 +49,7 @@ function calculadora() {
     alert("El resultado es: " + resultado);
   
     // Pregunta al usuario si desea realizar otra operación
-    var reiniciar = confirm("¿Deseas realizar otra operación?");
+    var reiniciar = confirm("¿Deseas usar de nuevo la calculadora?");
   
     // Si el usuario desea reiniciar la calculadora, llama a la función nuevamente
     if (reiniciar) {

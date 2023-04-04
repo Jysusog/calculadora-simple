@@ -1,4 +1,6 @@
-/*Reseteo*/
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Righteous&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,9 +8,8 @@
 }
 /*Body*/
 body {
-    font-family: "ComicNeue-Bold.ttf";
-    background-image: url("../assets/img/4ca6fa39-12aa-4d6b-9588-15a6baf0a201.jfif");
-    background-attachment: fixed;
+    font-family: 'Play', sans-serif;
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../assets/img/fondo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +17,7 @@ body {
 /*Texto*/
 h1 {
     text-align: center;
-    background-color: aquamarine;
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3));
     border-radius: 5px;
     margin: 5px;
     padding: 5px;
@@ -26,12 +27,15 @@ h6 {
     padding: 5px;
 }
 /*Fuente*/
-@font-face {
-    font-family: "ComicNeue-Bold.ttf";
-    src:url("../assets/font/ComicNeue-Bold.ttf");
-}
+
 /*Botón Calculadora*/
 .botonCalculadora {
     margin: 10px;
     padding: 10px;
+    border-radius: 3rem;
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3));
+    border: 2px 2px solid linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9));
+}
+.botonCalculadora:hover{
+    box-shadow: .1rem .1rem 3rem #4d4c4c;
 }
